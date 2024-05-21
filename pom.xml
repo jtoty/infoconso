@@ -14,7 +14,7 @@
 	<name>test</name>
 	<description>Ekwateur Test</description>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>21</java.version>
 	</properties>
 	<dependencies>
 
