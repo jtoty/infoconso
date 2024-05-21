@@ -41,6 +41,7 @@ Clients references are stored and can be changed in `clients.csv`
 
 ### Dates and energy consumption
 Availables dates are listed below.
+- 11-2023
 - 12-2023
 - 01-2024
 - 02-2024
