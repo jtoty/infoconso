@@ -19,8 +19,8 @@ Run the following command from a terminal
 ```bash
 curl http://localhost:8080/billing/{client_reference}/{date}
 ```
-Replace {client_reference}` and  `{date}` with given data (see below). Dates must be in MM-YYYY format.
-An example is available below
+Replace `{client_reference}` and  `{date}` with given data (see below). Dates must be in MM-YYYY format.
+An example is available below in example section
 
 ## Dataset
 ### Clients reference
