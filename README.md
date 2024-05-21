@@ -11,7 +11,7 @@ git clone https://github.com/jtoty/infoconso
 To run the application, run the following command in a terminal window (in the root) directory:
 
 ```bash
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 ## Test the application
