@@ -22,7 +22,7 @@ public class EnergyRepository {
                 .sorted(Comparator.comparingLong((String[] row) -> Long.parseLong(row[3].trim())).reversed())
                 .toList();
         for (String[] row : allData) {
-            if (chiffreDaffaire > Long.parseLong(row[3].trim())) {
+            if (chiffreDaffaire >= Long.parseLong(row[3].trim())) {
                 return new Energy(row[0], row[1]);
             }
         }

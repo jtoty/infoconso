@@ -34,7 +34,7 @@ public class BillingService {
             consumption = consumptionRepository.getNonProClientConsumptionByDate(clientReference, date);
             energy = energyRepository.getNonProEnergyPriceByMonth(date);
         }
-        if (consumption == null) {
+        if (consumption == null || energy == null) {
             return "Date demandée non disponible";
         }
         double billingElec = consumption.getElectricConsumption() * energy.getElectricPrice();
